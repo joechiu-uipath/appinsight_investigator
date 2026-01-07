@@ -1,0 +1,23 @@
+{
+  "name": "appinsight-investigator",
+  "version": "1.0.0",
+  "description": "CLI tool for analyzing Azure App Insights telemetry data using LLM",
+  "main": "src/index.js",
+  "type": "module",
+  "bin": {
+    "appinsight-investigator": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": ["azure", "app-insights", "telemetry", "llm", "cli"],
+  "license": "MIT",
+  "dependencies": {
+    "conf": "^13.0.1",
+    "inquirer": "^9.3.7",
+    "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
